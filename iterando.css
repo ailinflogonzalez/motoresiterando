@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 17px;
+}
+
+body {
+  background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+}
+
+header {
+  background: #ffffff;
+}
+
+.bar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  background: rgb(255, 255, 255);
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+}
+
+li {
+  width: 100%;
+  height: 70px;
+  /*background: brown;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: ease 0.5s;
+  -webkit-transition: ease 0.5s;
+  -moz-transition: ease 0.5s;
+  -ms-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+}
+
+li:hover {
+  background: #7f7f7f;
+
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.autos {
+  width: 40%;
+  height: 40%;
+}
+
+/*.botones {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}*/
+
+.bienvenida {
+  width: 40%;
+  line-height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+h1, p {
+    font-size: 20px;
+}
+
+.botones button {
+  height: 45px;
+  width: 200px;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+  transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -ms-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+}
+
+button:hover {
+  background: #275a77;
+  width: 250px;
+}
